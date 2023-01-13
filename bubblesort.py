@@ -6,7 +6,7 @@ def bubblesort(array):
                 array[j] = array[j+1]
                 array[j+1] = temp
 
-data = [-4,6,0,5,-2,7,4,3]
+data = [-4,6,0,5,-2,7,8,9]
 bubblesort(data)
 print("sorted array in asending order : ")
 print(data)
